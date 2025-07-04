@@ -2,7 +2,7 @@
 
 $anonasc = $_POST['anonasc'];
 
-$idade = date('Y') - $anonasc;
+$idade = date("y") - $anonasc;
 
 echo "Sua idade é: $idade anos<br>";
 
